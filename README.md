@@ -12,6 +12,19 @@ Este proyecto es una aplicación web simple desarrollada con **HTML**, **PHP** y
 
 ## 📁 Estructura del proyecto
 
+```
+semana_6/
+│
+├── basededatos.db              # Base de datos SQLite
+├── conexion.php                # Archivo de conexión a la base de datos
+├── consultar_reservas.php      # Muestra reservas almacenadas
+├── formulario_hotel.html       # Formulario para registrar hotel
+├── formulario_vuelo.html       # Formulario para registrar vuelo
+├── insertar_hotel.php          # Procesamiento de reserva de hotel
+├── insertar_vuelo.php          # Procesamiento de reserva de vuelo
+└── styles.css                  # Hoja de estilos CSS
+```
+
 ## 🛠️ Requisitos
 
 Para ejecutar el proyecto localmente necesitas:

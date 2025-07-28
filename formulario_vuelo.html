@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Registrar Vuelo</title></head>
+<body>
+<h2>Registrar Vuelo</h2>
+<form action="insertar_vuelo.php" method="POST" onsubmit="return validarVuelo()">
+    Origen: <input type="text" name="origen" id="origen"><br>
+    Destino: <input type="text" name="destino" id="destino"><br>
+    Fecha: <input type="date" name="fecha" id="fecha"><br>
+    Plazas Disponibles: <input type="number" name="plazas" id="plazas"><br>
+    Precio: <input type="number" step="0.01" name="precio" id="precio"><br>
+    <input type="submit" value="Registrar Vuelo">
+</form>
+
+<script>
+function validarVuelo() {
+    if(document.getElementById('origen').value === '' || document.getElementById('destino').value === '') {
+        alert('Origen y Destino son obligatorios');
+        return false;
+    }
+    return true;
+}
+</script>
+</body>
+</html>
+
+

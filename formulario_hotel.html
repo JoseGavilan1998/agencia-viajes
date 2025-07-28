@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>Registrar Hotel</title></head>
+<body>
+<h2>Registrar Hotel</h2>
+<form action="insertar_hotel.php" method="POST" onsubmit="return validarHotel()">
+    Nombre: <input type="text" name="nombre" id="nombre"><br>
+    Ubicación: <input type="text" name="ubicacion" id="ubicacion"><br>
+    Habitaciones Disponibles: <input type="number" name="habitaciones" id="habitaciones"><br>
+    Tarifa por Noche: <input type="number" step="0.01" name="tarifa" id="tarifa"><br>
+    <input type="submit" value="Registrar Hotel">
+</form>
+
+<script>
+function validarHotel() {
+    if(document.getElementById('nombre').value === '' || document.getElementById('ubicacion').value === '') {
+        alert('Nombre y Ubicación son obligatorios');
+        return false;
+    }
+    return true;
+}
+</script>
+</body>
+</html>
+
+
