@@ -48,10 +48,6 @@ Para ejecutar el proyecto localmente necesitas:
 - La base de datos `basededatos.db` ya contiene la estructura necesaria.
 - Asegúrate de que el archivo tenga permisos de escritura si estás en Linux o Mac.
 
-## 📌 Créditos
-
-Proyecto desarrollado como parte de una práctica académica para aprender PHP y SQLite.
-
 ---
 
 ¡Si te sirvió o deseas mejorarlo, siéntete libre de clonar, modificar o proponer cambios!
